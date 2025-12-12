@@ -98,17 +98,3 @@ for s in sentences_positif:
     print(s)
 ```
 
-## 🎯 Kontrol Sentimen (`label_class`)
-
-Model CT-VEEGAN dilatih pada data teks berlabel (misalnya, ulasan atau komentar dengan sentimen). Nilai `label_class` mengarahkan generator untuk menghasilkan teks yang konsisten dengan kelas yang diberikan.
-
-| `label_class` | Sentimen (Contoh) |
-| :---: | :--- |
-| **0** | Negatif (Keluhan, Kritik, Kekecewaan) |
-| **1** | Positif (Pujian, Apresiasi, Dukungan) |
-
-Dengan memvariasikan parameter ini, Anda dapat menjelajahi kemampuan generatif model untuk berbagai jenis ekspresi bahasa.
-
------
-
-Apakah Anda ingin saya memberikan contoh kode lengkap untuk menghasilkan 5 kalimat positif (menggunakan `label_class=1`) sebagai langkah selanjutnya?
